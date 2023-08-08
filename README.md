@@ -2,7 +2,9 @@
 
 [fs](http://nodejs.org/api/fs.html) in react-native using [level-filesystem](https://github.com/mafintosh/level-filesystem) and [asyncstorage-down](https://github.com/tradle/asyncstorage-down)
 
-	npm install react-native-level-fs
+```
+npm install @clip-sub/react-native-level-fs
+```
 
 ## Usage
 
@@ -14,7 +16,7 @@ To use simply require it and use it as you would fs
 {
     ...
     "browser": {
-       "fs": "react-native-level-fs" 
+       "fs": "@clip-sub/react-native-level-fs" 
     }
     ...
 }
